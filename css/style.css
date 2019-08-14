@@ -79,6 +79,11 @@ body{
     transition: transform 2s;
 }
 
+.btn-slogan-projetos a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .div-slogan-texto h1, p{
     margin: 0;
     width: 100%;
@@ -165,4 +170,22 @@ body{
 
 .btn-down a{
     color: #BAFF29;
+}
+
+.p-type-write{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span-underscore{
+    font-weight: bold;
+    animation: underscoreAnimation;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes underscoreAnimation{
+    0%{ opacity: 0; }
+    100%{opacity: 1;}
 }

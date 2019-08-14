@@ -17,6 +17,11 @@ body{
     /*border-bottom: solid 2px #BAFF29;*/
 }
 
+.header-homepage a{
+    text-decoration: none;
+    color: #BAFF29;
+}
+
 .h2-homepage{
     margin-left: 5vw;
 }
@@ -39,7 +44,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #262626;
+    background-color: transparent;
     border-bottom: solid 1px #BAFF29;
     height: 10vh;
 }
@@ -50,7 +55,7 @@ body{
     align-items: center;
     width: 100%;
     border-right: solid 1px #BAFF29;
-    color: #F2F2F2;
+    color: #262626;
     font-weight: bolder;
 }
 
