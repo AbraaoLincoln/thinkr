@@ -8,6 +8,10 @@ function navBar(props){
         props.history.push("/login")
     }
 
+    const handleCadastrar = () => {
+        props.history.push("/join")
+    }
+
     return(
         <div>
             <header className="headerNavBar">
@@ -15,7 +19,7 @@ function navBar(props){
                 <nav className="main-navbar">
                     <ul>
                         <li onClick={handleEntar}><span className="span-navabar">Entrar</span></li>
-                        <li><span className="span-navabar">Cadastra-se</span></li>
+                        <li onClick={handleCadastrar}><span className="span-navabar">Cadastra-se</span></li>
                     </ul>
                 </nav>
             </header>

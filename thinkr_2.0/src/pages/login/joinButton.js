@@ -1,10 +1,18 @@
 import React from 'react';
 
-export default joinSection => {
+ 
+function joinSection(props) {
+
+    const handleClick = () => {
+        props.history.push("/join");
+    }
+
     return(
         <div className="joinSection">
             <p>Ainda não faz parte do ThinkR ?</p>
-            <button>Cadastra-se</button>
+            <button onClick={handleClick}>Cadastra-se</button>
         </div>
     )
 }
+
+export default joinSection;
