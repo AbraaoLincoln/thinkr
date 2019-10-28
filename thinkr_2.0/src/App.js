@@ -6,6 +6,8 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Homepage from './pages/homepage/homePage';
 import Login from './pages/login/login'
 import Join from './pages/join/join';
+import Dashboard from './pages/dashboard/userDashboard';
+import Projects from './pages/projects/projects';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
             <Route path="/" exact component={Homepage} />
             <Route path="/login" exact component={Login} />
             <Route path="/join" exact component={Join} />
+            <Route path="/dashboard" exact component={Dashboard} />
+            <Route path="/projects" exact component={Projects} />
         </Switch>
       </div>
     </Router>

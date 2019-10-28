@@ -14,7 +14,7 @@ function Login(props){
                 <Background />
                 <div id="mainContLogin" className="mainContentLogin">
                     <div className="formButtonJoin">
-                        <Form />
+                        <Form history={props.history}/>
                         <Join history={props.history}/>
                     </div>
                     <OptionLogin />

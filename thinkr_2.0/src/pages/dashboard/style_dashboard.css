@@ -1,0 +1,101 @@
+.mainDivDashBoard{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+/* #F1F5F2 */
+.divLeft{
+    width: 30vw;
+    height: 100vh;
+    /* background-color: #31E981; */
+}
+
+.divRight{
+    width: 70vw;
+    height: 100vh;
+    /* background-color: #11151C; */
+}
+
+/* ===================================================================================== */
+
+.divUserMenu{
+    width: 90%;
+    height: 105%;
+    background-color: #11151C;
+    margin-left: 5%;
+    /* border-bottom-left-radius: 50%; */
+    /* border-bottom-right-radius: 50%; */
+    box-shadow: 2px 2px 5px #11151C;
+}
+
+.divUserInfo{
+    /* background-color: #31E981; */
+    height: 40%;
+    overflow: hidden;
+}
+
+.divUserInfo p{
+    font-size: 150%;
+    margin-top: 2%;
+    color: #F1F5F2;
+}
+
+.userStars{
+    margin-top: 5%;
+}
+
+.userStars i{
+    /* 
+    #FFFC31
+    #E0FF4F
+    #FFC914
+     */
+    color: #FFC914;
+}
+
+.dashboardUserMenu{
+    width: 90%;
+    height: 60%;
+    margin-left: 5%;
+}
+
+.dashboardUserMenuBtn{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.dashboardUserMenuBtn button{
+    height: 20%;
+    border: none;
+    border-radius: 20px;
+    background-color: #F1F5F2;
+    color: #11151C;
+    font-size: 100%;
+    /* font-weight: bold; */
+}
+
+.dashboardUserMenuBtn button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #E0E5E2;
+    /* border: 1px solid #31E981; */
+    box-shadow: 1px 1px 2px #31E981;
+}
+/* ============================= */
+.userImage{
+    overflow: hidden;
+    border-radius: 50%;
+    height: 55%;
+    width: 46%;
+    margin-top: 2%;
+    margin-left: 27%;
+    /* background-color: rebeccapurple; */
+}
+
+.userImage img{
+    width: 100%;
+    height: 100%;
+}
