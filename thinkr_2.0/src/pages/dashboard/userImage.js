@@ -1,6 +1,4 @@
 import React from 'react';
-import UserMan from '../../assets/userMan.jpg';
-import UserWoman from '../../assets/userWoman.png';
 import UserTeste  from '../../assets/userTeste.jpg';
 
 export default UserImage => {
