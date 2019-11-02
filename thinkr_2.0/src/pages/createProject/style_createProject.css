@@ -1,0 +1,41 @@
+.mainDivCreateProject{
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainPage{
+    width: 60%;
+    height: 100%;
+    margin-left: 5%;
+    box-shadow: 1px 1px 10px;
+}
+
+.inputTitulo{
+    width: 50%;
+    height: 10vh;
+    margin-top: 2%;
+    border: none;
+    background-color: #F1F5F2;
+    font-size: 200%;
+    text-align: center;
+}
+
+.mainPage p{
+    width: 50%;
+    margin-left: 25%;
+    text-align: start;
+    color: #707271;
+    /* background-color: red; */
+}
+
+.inputParagraph{
+    width: 80%;
+    height: 20vh;
+    margin-top: 2%;
+    border: none;
+    background-color: #F1F5F2;
+    font-size: 20px;
+    text-align: start;
+    box-sizing: border-box;
+    line-height: 1.5;
+}

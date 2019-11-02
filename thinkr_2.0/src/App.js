@@ -8,6 +8,8 @@ import Login from './pages/login/login'
 import Join from './pages/join/join';
 import Dashboard from './pages/dashboard/userDashboard';
 import Projects from './pages/projects/projects';
+import CreateProject from './pages/createProject/createProject';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
             <Route path="/join" exact component={Join} />
             <Route path="/dashboard" exact component={Dashboard} />
             <Route path="/projects" exact component={Projects} />
+            <Route path="/createProject" exact component={CreateProject} />
         </Switch>
       </div>
     </Router>
