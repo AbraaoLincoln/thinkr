@@ -20,6 +20,10 @@ function UserMenu(props){
         props.history.push("projects");
     }
 
+    const handleClikeCreateProjects = () => {
+        props.history.push("/createProject");
+    }
+
     return(
         <div className="divUserMenu">
             <div className="divUserInfo">
@@ -31,7 +35,7 @@ function UserMenu(props){
             <div className="dashboardUserMenu">
                 <div className="dashboardUserMenuBtn">
                     <button>Perfil</button>
-                    <button>Meus Projetos</button>
+                    <button onClick={handleClikeCreateProjects}>Criar Projeto</button>
                     <button onClick={handleClikeBprojects}>Buscar Projetos</button>
                     <button>Configurações</button>
                 </div>
