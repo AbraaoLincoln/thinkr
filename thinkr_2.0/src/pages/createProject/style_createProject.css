@@ -22,6 +22,17 @@
     background-color: #F9FBF2;
     font-size: 200%;
     text-align: center;
+    animation: heiglight 1s ease;
+}
+
+@keyframes heiglight{
+    0%{
+        border: solid 0.1px #76BBDB;
+    }
+
+    100%{
+        border: none;
+    }
 }
 
 .mainPage p{
@@ -42,6 +53,17 @@
     text-align: start;
     box-sizing: border-box;
     line-height: 1.5;
+    animation: heiglight2 2s ease;
+}
+
+@keyframes heiglight2{
+    50%{
+        border: solid 0.1px #76BBDB;
+    }
+
+    100%{
+        border: none;
+    }
 }
 
 .divListRequire{
@@ -74,6 +96,30 @@
     box-shadow: 1px 1px 10px;
 }
 
+.divCarP input{
+    background-color: #F9FBF2;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+}
+
+/* .divCarCreate{
+    animation: heiglight3 3s;
+}
+    
+@keyframes heiglight3{
+    50%{
+        border: solid 0.1px #11151C;
+    }
+
+    100%{
+        border: none;
+    }
+} */
+
+
 .divCarP h3{
     border-bottom: 1px solid #707271;
 }
@@ -95,13 +141,27 @@
 #iconsParticipate{
     display: flex;
     justify-content: space-around;
-    /* overflow: scroll; */
+    align-items: center;
+    height: 50%;
+    /* background-color: #11151C; */
+    /* overflow: hidden; */
 }
 
 .divCarCreate{
     justify-content: center;
     align-items: center;
+    /* animation: heiglight3 3s; */
 }
+
+/* @keyframes heiglight3{
+    50%{
+        border: solid 0.1px #11151C;
+    }
+
+    100%{
+        border: none;
+    }
+} */
 
 #btnPlus{
     border-radius: 50%;
@@ -127,4 +187,83 @@
 .formCreate input{
     height: 20%;
     /* border:none; */
+}
+
+.divBtnCardP{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editOpc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3%;
+    width: 10%;
+}
+
+.spanX{
+    color: #707271;
+}
+
+.spanX:hover{
+    cursor: pointer;
+    color: #BD1E1E;
+}
+
+#divBottomIcons{
+    /* background-color: blue; */
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 27%;
+    overflow: hidden;
+}
+
+.divTopIcons{
+    background-color: rgba(17, 21, 28, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.btnRemove{
+    color: #BD1E1E;
+}
+
+.btnRemove:hover, .btnAdd:hover{
+    cursor: pointer;
+}
+
+.btnAdd{
+    color: #31E981;
+    opacity: 1;
+}
+
+#btnA, #btnR{
+    opacity: 1;
+}
+
+@media(max-width: 480px){
+    .mainDivCreateProject{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mainPage{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .divListRequire{
+        width: 90%;
+        margin-left: 3%;
+    }
 }

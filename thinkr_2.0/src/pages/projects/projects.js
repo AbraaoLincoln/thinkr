@@ -47,10 +47,10 @@ function Project(props){
             <header className="headerProjects">
                 <h1 onClick={goHome}>ThinkR</h1>
                 <div className="divSearch">
-                    <input type="text" placeholder="nome do projeto"/>
+                    <input type="search" placeholder="nome do projeto"/>
                     <i class="fas fa-search"></i>
                 </div>
-                <p onClick={goUserdashboard}>User name</p>
+                <p onClick={goUserdashboard} id="useNameProject">User name</p>
             </header>
             <div className="mainProjetcs">
                 <div className="displayProjects" id="displayPro1">

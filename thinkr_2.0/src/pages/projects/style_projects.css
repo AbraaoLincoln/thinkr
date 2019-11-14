@@ -18,7 +18,7 @@
     width: 10%;
 }
 
-.headerProjects h1:hover{
+.headerProjects h1:hover, p:hover{
     cursor: pointer;
 }
 
@@ -81,6 +81,8 @@
 } */
 
 .projectSort{
+    width: 50%;
+    margin-left: 25%;
     height: 10%;
     margin-bottom: 2%;
     /* border: 1px solid black; */
@@ -143,4 +145,24 @@
 
 .iconLike:hover, .iconDeslike:hover{
     transform: scale(1.5);
+}
+
+@media(max-width: 480px){
+    #useNameProject{
+        display: none;
+    }
+
+    .headerProjects{
+        height: 9vh;
+        justify-content: space-between;
+    }
+
+    .divSearch{
+        width: 55%;
+        padding-left: 4%;
+    }
+
+    .divSearch input{
+        height: 30%;
+    }
 }

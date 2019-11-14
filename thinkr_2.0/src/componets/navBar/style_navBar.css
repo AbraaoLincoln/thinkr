@@ -40,3 +40,13 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+@media(max-width: 480px){
+    /* .main-navbar{
+        width: 60%;
+    } */
+
+    #btnJoinNavBar{
+        display: none;
+    }
+}

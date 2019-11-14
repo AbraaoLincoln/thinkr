@@ -19,3 +19,9 @@
     color: #F9FBF2;
     /* color: #31E981; */
 }
+
+@media(max-width: 480px){
+    .text-mainContent{
+        font-size: 25px;
+    }
+}

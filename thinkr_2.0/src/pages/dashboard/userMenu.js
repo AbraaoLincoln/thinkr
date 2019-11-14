@@ -16,6 +16,10 @@ function UserMenu(props){
         setUserStar();
     });
 
+    const handleClikeBsair = () => {
+        props.history.push("/");
+    }
+
     const handleClikeBprojects = () => {
         props.history.push("projects");
     }
@@ -38,6 +42,7 @@ function UserMenu(props){
                     <button onClick={handleClikeCreateProjects}>Criar Projeto</button>
                     <button onClick={handleClikeBprojects}>Buscar Projetos</button>
                     <button>Configurações</button>
+                    <button onClick={handleClikeBsair}>Sair</button>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ import HomeBtn from './btnHome/homeButton';
 
 function Login(props){
     return(
-        <div style={{width: "100vw", height: "100vh"}}>
+        <div>
             <div className="mainDiv">
                 <Background />
                 <div id="mainContLogin" className="mainContentLogin">

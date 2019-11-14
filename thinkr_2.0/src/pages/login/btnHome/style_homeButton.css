@@ -18,3 +18,17 @@
     cursor: pointer;
     background-color: #E0E5E2;
 }
+
+@media(max-width: 680px){
+    .divHomeBtn{
+        /* position: relative; */
+        width: 1px;
+        height: 1px;
+        background-color: red;
+        /* border-radius: 50%; */
+        /* background-color: #F1F5F2; */
+        /* margin-left: 5%; */
+        /* box-shadow: 1px 1px 10px #11151C; */
+        z-index: 10;
+    }
+}

@@ -180,7 +180,7 @@
 	height: 70%;
 	width: 50%;
 	/* transform: scale(0); */
-	transition: transform 1s;
+	/* transition: transform 1s; */
 }
 
 .formButtonJoin{
@@ -272,4 +272,35 @@
 
 .divBtnHome{
 	padding-top: 2%;
+}
+
+@media(max-width: 480px){
+	.form{
+		width: 80vw;
+	}
+	.joinSection{
+		margin-top: 40%;
+	}
+	.mainContentLogin{
+		flex-direction: column;
+		justify-content: center;
+		margin-right: 30vw;
+	}
+	.formButtonJoin{
+		/* position: static; */
+	}
+	.optLogin{
+		/* display: none; */
+		/* position: static; */
+		flex-direction: row;
+		margin-left: 0;
+		padding-left: 0;
+		margin-top: 155%;
+		width: 80vw;
+		/* z-index: 100; */
+	}
+	.divBtnHome{
+		display: none;
+		transform: scale(0.6);
+	}
 }

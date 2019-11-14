@@ -44,7 +44,8 @@ function ProjectDescription(props){
                 </div>
             </div>
             <div className="projectSortDescription" id={`projcDesc${props.id}`}>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur sint, in ipsum magni molestias perferendis et voluptates harum odio, tempora maxime quod minus ad incidunt cum ullam vero modi molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ducimus explicabo ipsa aut maiores asperiores, alias illum itaque sint recusandae voluptate ipsam? Quisquam sit iusto itaque eos nesciunt dolore dignissimos?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur sint, in ipsum magni molestias perferendis et voluptates harum odio, tempora maxime quod minus ad incidunt cum ullam vero modi molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ducimus explicabo ipsa aut maiores asperiores, alias illum itaque sint recusandae voluptate ipsam? Quisquam sit iusto itaque eos nesciunt dolore dignissimos? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae accusantium quisquam architecto nesciunt impedit. Iste minus aperiam aliquam natus beatae ipsum quia, nesciunt explicabo expedita suscipit accusantium omnis maxime laudantium!</p>
+                {/* <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, iste?</p> */}
             </div>
             {/* {state.showDescription ? showDescpt() : ""} */}
         </div>
