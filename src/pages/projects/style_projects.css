@@ -81,8 +81,8 @@
 } */
 
 .projectSort{
-    width: 50%;
-    margin-left: 25%;
+    width: 90%;
+    margin-left: 5%;
     height: 10%;
     margin-bottom: 2%;
     /* border: 1px solid black; */
@@ -164,5 +164,20 @@
 
     .divSearch input{
         height: 30%;
+    }
+
+    .displayProjects{
+        width: 98%;
+        margin-left: 1%;
+    }
+
+    .projectSort{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 5%;
+    }
+
+    .projectSort p{
+        font-size: 65%;
     }
 }

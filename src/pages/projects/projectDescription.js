@@ -48,6 +48,7 @@ function ProjectDescription(props){
                 {/* <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, iste?</p> */}
             </div>
             {/* {state.showDescription ? showDescpt() : ""} */}
+            {/* <button>Ver Projeto</button> */}
         </div>
     )
 }

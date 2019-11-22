@@ -3,15 +3,14 @@ import React, { useEffect, useState} from 'react';
 import ProjectInfo from './projectInfo';
 
 function MyProjects(props){
-    // var aux = 0
-    const [state, setState] = useState({qtdProjects: 20});
+    const [state, setState] = useState({qtdProjects: 8});
+
     const loadProjects = () => {
         let myProjects = [];
 
         for(let i = 0; i < state.qtdProjects; i++){
             myProjects.push(<ProjectInfo />);
         }
-        // aux = myProjects.length;
         return myProjects;
     }
 
@@ -30,10 +29,14 @@ function MyProjects(props){
                         {loadProjects()}
                    </div>
         }else{
-            return <div>
-                        <button>Projetos</button>
+            return <div className="divBtnMyProjetcs">
+                        <button onClick={handleClikeCreateProjects}>Criar Projeto</button>
                    </div>       
         }
+    }
+
+    const handleClikeCreateProjects = () => {
+        props.history.push("/createProject");
     }
 
     return(

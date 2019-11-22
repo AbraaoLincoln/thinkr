@@ -13,7 +13,7 @@ function Dashboard(props){
             </div>
             <div className="divRight">
                 <ProjectsInfo />
-                <MyProjects />
+                <MyProjects history={props.history}/>
             </div>
         </div>
     );

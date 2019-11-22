@@ -165,4 +165,22 @@
     /* border: solid 1px #11151C; */
     border-radius: 10px;
     box-shadow: 1px 1px 5px #11151C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divBtnMyProjetcs button{
+    border: none;
+    width: 50%;
+    padding: 2%;
+    background-color: #F9FBF2;
+    color: #11151C;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px #11151C;
+}
+
+.divBtnMyProjetcs button:hover{
+    cursor: pointer;
+    background-color: #E0E5E2;
 }
