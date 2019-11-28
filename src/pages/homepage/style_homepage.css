@@ -1,0 +1,84 @@
+.mainContent-homepage{
+    width: 100%;
+    height: 90vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent-homepage img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.text-mainContent{
+    position: absolute;
+    font-size: 50px;
+    color: #F9FBF2;
+    /* color: #31E981; */
+}
+
+.divConceptModel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    /* border: solid 1px #11151C; */
+    /* background-color: #111110; */
+    color: #11151C;
+    width: 98vw;
+    margin-left: 0.4vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.divConceptModel h2{
+    margin-bottom: 3%;
+}
+
+.divPaiSteps{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+}
+
+.stepsOut{
+    height: 100%;
+    width: 18%;
+    /* background-color: #191917; */
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px;
+}
+
+.steps{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 140%;
+    /* background-color: #191917; */
+    border-radius: 5px;
+    transform: scale(0);
+    transition: transform 1s;
+    /* border: solid 1px #11151C; */
+}
+
+.footerHomepage{
+    background-color: #11151C;
+    color: #F9FBF2;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 480px){
+    .text-mainContent{
+        font-size: 25px;
+    }
+}
